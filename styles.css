@@ -80,3 +80,30 @@ h3{
 .about_info{
     font-weight: 800;
 }
+/* SKILLS */
+#skills{
+    height: 500px;
+    border: 2px solid red;
+    background-color: black;
+}
+#skills h3{
+    color: white;
+}
+.all_skills{
+    /* border:2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+}
+.skills_aptitudes,.skills_tools{
+    /* border:2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    justify-content: space-around;
+    text-align: start;
+}
+label{
+    font-weight: 900;
+    color: white;
+}
