@@ -31,28 +31,52 @@ h2{
 }
 /* --> NAVBAR */
 nav{
-
     height: 100px;
     background-color: #F2F2F2;
     vertical-align: middle;
+
 }
 nav ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-}
+    margin-top: 0;
 
-nav li 
-{
-   /* display:inline; */
+}
+nav li {
    padding: 20px;
    margin:0;
    list-style: none;
    font-size: 25px;
 }
-
 a{
     text-decoration: none;
     color: black;
+}
+/* ABOUT */
+#about{
+    height: 500px;
+    border: 2px solid red;
+    
+}
+h3{
+    font-size: 55px;
+}
+
+.about_text{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+.about_infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    margin-left: 23%;
+    margin-top: 5%;
+}
+.about_info{
+    font-weight: 800;
 }
