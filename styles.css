@@ -30,3 +30,29 @@ h2{
     color: white;
 }
 /* --> NAVBAR */
+nav{
+
+    height: 100px;
+    background-color: #F2F2F2;
+    vertical-align: middle;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav li 
+{
+   /* display:inline; */
+   padding: 20px;
+   margin:0;
+   list-style: none;
+   font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
