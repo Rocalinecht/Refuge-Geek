@@ -4,15 +4,17 @@ body{
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
+
 /* --> HEADER  */
 header{
-    background-color: #F2F2F2;
+    background-color: lightgray;
     height: 650px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 img{
     width: 250px;
     height: 250px;
@@ -20,41 +22,46 @@ img{
 }
 
 h1{
-    /* color: white; */
+
     font-size: 55px;
 }
 h2{
     font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    /* color: white; */
+
 }
+
+
+
 /* --> NAVBAR */
 nav{
     border-top: 2px solid white;
     background-color: #F2F2F2;
-    /* vertical-align: middle; */
-
 }
+
 nav ul{
     height: 100px;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 0;
-
 }
+
 nav li {
    padding: 20px;
    margin:0;
    list-style: none;
    font-size: 20px;
 }
+
 a{
     text-decoration: none;
     color: black;
 }
+
+
+
 /* ABOUT */
 #about{
     height: 550px;  
@@ -63,6 +70,7 @@ a{
     justify-content: space-between;
     align-items: center;  
 }
+
 h3{
     font-size: 55px;
 }
@@ -70,7 +78,6 @@ h3{
 .about_text{
     margin-left: 20%;
     margin-right: 20%;
-    /* margin-top: 5%; */
 }
 
 .about_infos{
@@ -78,16 +85,18 @@ h3{
     justify-content: space-between;
     align-items: center;
     width: 55%;
-    /* margin-left: 23%; */
     margin: 5%;
 }
+
 .about_info{
     font-weight: 800;
 }
+
+
+
 /* SKILLS */
 #skills{
     height: 700px;
-    /* border: 2px solid transparent; */
     background-color: #f2F2F2;
     display: flex;
     flex-direction: column;
@@ -96,35 +105,41 @@ h3{
 }
 
 .all_skills{
-    /* border:2px solid blue; */
     display: flex;
     justify-content: space-between;
     width: 70%;
     align-items: center;
     margin-bottom: 10%;
 }
-.skills_aptitudes,.skills_tools{
-    /* border:2px solid yellow; */
+
+.skills_aptitudes, .skills_tools{
     display: flex;
     flex-direction: column;
     width: 400px;
-    height: 200px;
+    height: 350px;
     justify-content: space-between;
     text-align: start;
 }
+
+h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
 label{
-    font-weight: 900;
-    
+    font-weight: 900;  
 }
 progress {
     background-color: darkgray;
 }
 
+
+
 /* EXPERIENCES  */
 #experiences{
     height: auto;
-    /* border: 3px solid red; */
 }
+
 .experience_bloc{
     background-color: #F2F2F2;
     margin-left:  20%;
@@ -132,15 +147,19 @@ progress {
     margin-bottom:4%;
     padding: 1em;
 }
+
 .experience_title{
     text-transform: uppercase;
     font-weight: 900;
     font-size: 25px;
 }
+
 .experience_date{
     text-transform: uppercase;
     margin-bottom: 25px;
 }
+
+
 /* FOOTER */
 footer{
     background-color: black;
@@ -150,9 +169,11 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
+
 footer p{
     padding: 1em;
 }
+
 .footer_name{
     font-size: 20px;
     text-transform: uppercase;
